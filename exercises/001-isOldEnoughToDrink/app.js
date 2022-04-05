@@ -1,3 +1,7 @@
-function isOldEnoughToDrink(){
-    // your code here	
+function isOldEnoughToDrink(age){  // según parámetro age
+    if (age < 21) {
+        return false;
+    } else {
+        return true;
+    }
 }

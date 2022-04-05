@@ -1,3 +1,4 @@
 function addProperty(obj, key) {
-  // your code here
+  obj[key] = true;  // así añado una clave
+  return obj;
 }

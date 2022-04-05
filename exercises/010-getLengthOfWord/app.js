@@ -1,3 +1,3 @@
 function getLengthOfWord(word) {
-  // your code here
+  return word.length  // accedo a la propiedad length del str
 }

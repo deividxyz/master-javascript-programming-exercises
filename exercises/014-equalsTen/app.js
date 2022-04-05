@@ -1,3 +1,7 @@
 function equalsTen(num) {
-  // your code here
+  if (num === 10) {   // el match ultraexacto es con ===
+    return true
+  } else {
+    return false
+  }
 }

@@ -1,3 +1,3 @@
 function getAllElementsButFirst(array) {
-  // your code here
+  return array.slice(1, array.length)  // parto desde el primero hasta array.length
 }

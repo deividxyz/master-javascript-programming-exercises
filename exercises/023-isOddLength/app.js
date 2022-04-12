@@ -1,5 +1,9 @@
 // ver si el largo es par
 
-function isOddLenth(word) {
-    return word.length
+function isOddLength(word) {
+    if (word.lengsth % 2 > 0) {
+        return false
+    } else {
+        return true
+    }
 }

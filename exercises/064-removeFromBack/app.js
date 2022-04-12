@@ -1,3 +1,4 @@
 function removeFromBack(arr) {
-    // your code here
+    arr.pop(arr.length)  // con pop elimino el ultimo elemento
+    return arr
 }

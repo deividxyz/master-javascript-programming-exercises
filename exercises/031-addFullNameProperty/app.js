@@ -1,3 +1,4 @@
 function addFullNameProperty(obj) {
-  // tu codigo aqui
+  obj['fullName'] = person['firstName'] + ' ' + person['lastName']
+  return obj
 }

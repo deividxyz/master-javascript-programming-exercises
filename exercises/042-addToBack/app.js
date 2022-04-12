@@ -1,5 +1,6 @@
 function addToBack(arr, element) {
-  // your code here
+  arr.push(element)  // con push añado el elemento al final
+  return arr  // devuelvo el array modificado
 }
 
 var output = addToBack([1, 2], 3);
